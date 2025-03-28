@@ -1,4 +1,4 @@
-# Random Anime
+# Random Element
 
 Este programa selecciona un elemento aleatorio de una lista predefinida y muestra información sobre el mismo.
 
