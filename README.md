@@ -1,10 +1,10 @@
 # Random Anime
 
-Este programa selecciona un anime aleatorio de una lista predefinida y muestra información sobre el mismo.
+Este programa selecciona un elemento aleatorio de una lista predefinida y muestra información sobre el mismo.
 
 ## Características
 
-- Selección aleatoria de anime
+- Selección aleatoria de un elemento
 - Información detallada del anime seleccionado
 - Interfaz de usuario simple y fácil de usar
 
@@ -18,11 +18,11 @@ Este programa selecciona un anime aleatorio de una lista predefinida y muestra i
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/random-anime.git
+    git clone https://github.com/tu-usuario/random-element.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd random-anime
+    cd random-element
     ```
 3. (Opcional) Instala las dependencias:
     ```bash

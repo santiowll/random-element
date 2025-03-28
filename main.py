@@ -1,30 +1,30 @@
 """
-Este script permite al usuario ingresar una lista de animes y luego selecciona uno al azar para mostrarlo.
+Este script permite al usuario ingresar una lista de elementos y luego selecciona uno al azar para mostrarlo.
 
 Funciones:
-    - random_anime: Función importada del módulo `random_anime` que selecciona un anime al azar de una lista.
+    - random_element: Función importada del módulo `random_element` que selecciona un elemento al azar de una lista.
 
 Variables:
-    - anime_lista: Lista que almacena los nombres de los animes ingresados por el usuario.
+    - elementos_lista: Lista que almacena los elementos ingresados por el usuario.
 
 Flujo del programa:
-    1. Solicita al usuario que ingrese nombres de animes.
-    2. Almacena los nombres en la lista `anime_lista`.
+    1. Solicita al usuario que ingrese elementos.
+    2. Almacena los nombres en la lista `elementos_lista`.
     3. Cuando el usuario ingresa 'q', se detiene la entrada de datos.
-    4. Llama a la función `random_anime` para seleccionar y mostrar un anime al azar de la lista.
+    4. Llama a la función `random_element` para seleccionar y mostrar un elemento al azar de la lista.
 """
 
-from modules.random_anime import random_anime as random_anime
+from modules.random_element import random_element as random_element
 
 from typing import List
 
-anime_lista: List[str] = []
+elementos_lista: List[str] = []
 
 while True:
-    anime = input("Escribe el anime que poner en una ruleta (escribe 'q' para salir): ").lower()
-    if anime != 'q':
-        anime_lista.append(anime)
+    elemento = input("Escribe el elemento que queres poner en la ruleta (escribe 'q' para salir): ").lower()
+    if elemento != 'q':
+        elementos_lista.append(elemento)
     else:
         break
 
-random_anime(anime_lista)
+random_element(elementos_lista)
